@@ -1,0 +1,54 @@
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-brand{
+    font-size: 1.6em;
+    padding-bottom: 15px;
+}
+#nav-list.navbar-nav >li> a:hover{
+    background-color: chocolate;
+    color: deepskyblue;
+}
+#nav-list.navbar-nav >li> a{
+    background-color: dimgray;
+    color: dodgerblue;
+}
+#chicken,#beef,#sushi{
+    background-color: gold;
+    color: black;
+    text-align: center;
+}
+h3{
+    text-align: center;
+   
+}
+@media(min-width:992px){
+    .main-content>.container>div>p{
+        width:100%;
+        background-color: gray;
+        color: black;
+    }
+}
+@media(max-width:991px) and (min-width:768px){
+    .main-content>.container>div>p{
+        width:80%;
+        background-color: gray;
+        color: black;
+        text-align: center;
+    }
+
+h3{
+    margin-right: 135px;
+}
+}
+@media(max-width:767px){
+    .main-content>.container>div>p{
+        width: 80%;
+        background-color: gray;
+        color: black;
+        text-align: center;
+    }
+    h3{
+        margin-right: 135px;
+    }
+}
