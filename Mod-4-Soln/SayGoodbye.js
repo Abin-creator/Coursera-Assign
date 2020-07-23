@@ -27,3 +27,4 @@ var byeSpeaker = {speak: function(name){
 // xxxx.xxxx = byeSpeaker;
 window.byeSpeaker=byeSpeaker;
 })(window);
+//Complete
